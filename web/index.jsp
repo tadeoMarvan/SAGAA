@@ -143,7 +143,7 @@
                 </div>
             </div>
         </div>
-        
+
     <!-- Login Register area End-->
     <!-- jquery
 		============================================ -->
@@ -151,7 +151,7 @@
     <!-- bootstrap JS
 		============================================ -->
     <script src="<%=context%>/js/bootstrap.min.js"></script>
-    
+
     <!--  todo JS
 		============================================ -->
     <script src="<%=context%>/js/todo/jquery.todo.js"></script>

@@ -1,6 +1,4 @@
 <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="" style=""><head>
-    <% String context = request.getContextPath();%>
-
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Dashboard One | Notika - Notika Admin Template</title>
@@ -11,36 +9,36 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="<%=context%>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/owl.carousel.css">
-    <link rel="stylesheet" href="<%=context%>/css/owl.theme.css">
-    <link rel="stylesheet" href="<%=context%>/css/owl.transitions.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/meanmenu/meanmenu.min.css">
+    <link rel="stylesheet" href="css/meanmenu/meanmenu.min.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/jvectormap/jquery-jvectormap-2.0.3.css">
+    <link rel="stylesheet" href="css/jvectormap/jquery-jvectormap-2.0.3.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/notika-custom-icon.css">
+    <link rel="stylesheet" href="css/notika-custom-icon.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/wave/waves.min.css">
+    <link rel="stylesheet" href="css/wave/waves.min.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <link rel="stylesheet" href="<%=context%>/style.css">
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="<%=context%>/css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://embed.tawk.to/59474840e9c6d324a47360f9/default" charset="UTF-8" crossorigin="*"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://embed.tawk.to/59474840e9c6d324a47360f9/default" charset="UTF-8" crossorigin="*"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://embed.tawk.to/59474840e9c6d324a47360f9/default" charset="UTF-8" crossorigin="*"></script><script src="js/vendor/modernizr-2.8.3.min.js" type="text/javascript"></script>
-    <style type="<%=context%>/text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#XOoqCMz-1582002535088{outline:none!important;visibility:visible!important;resize:none!important;box-shadow:none!important;overflow:visible!important;background:none!important;opacity:1!important;filter:alpha(opacity=100)!important;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity1)!important;-moz-opacity:1!important;-khtml-opacity:1!important;top:auto!important;right:10px!important;bottom:0px!important;left:auto!important;position:fixed!important;border:0!important;min-height:0!important;min-width:0!important;max-height:none!important;max-width:none!important;padding:0!important;margin:0!important;-moz-transition-property:none!important;-webkit-transition-property:none!important;-o-transition-property:none!important;transition-property:none!important;transform:none!important;-webkit-transform:none!important;-ms-transform:none!important;width:auto!important;height:auto!important;display:none!important;z-index:2000000000!important;background-color:transparent!important;cursor:auto!important;float:none!important;border-radius:unset!important;pointer-events:auto!important}#dNJmS6d-1582002535089.open{animation : tawkMaxOpen .25s ease!important;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#hnh9pEq-1582003552417{outline:none!important;visibility:visible!important;resize:none!important;box-shadow:none!important;overflow:visible!important;background:none!important;opacity:1!important;filter:alpha(opacity=100)!important;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity1)!important;-moz-opacity:1!important;-khtml-opacity:1!important;top:auto!important;right:10px!important;bottom:0px!important;left:auto!important;position:fixed!important;border:0!important;min-height:0!important;min-width:0!important;max-height:none!important;max-width:none!important;padding:0!important;margin:0!important;-moz-transition-property:none!important;-webkit-transition-property:none!important;-o-transition-property:none!important;transition-property:none!important;transform:none!important;-webkit-transform:none!important;-ms-transform:none!important;width:auto!important;height:auto!important;display:none!important;z-index:2000000000!important;background-color:transparent!important;cursor:auto!important;float:none!important;border-radius:unset!important;pointer-events:auto!important}#snbMf43-1582003552418.open{animation : tawkMaxOpen .25s ease!important;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#XOoqCMz-1582002535088{outline:none!important;visibility:visible!important;resize:none!important;box-shadow:none!important;overflow:visible!important;background:none!important;opacity:1!important;filter:alpha(opacity=100)!important;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity1)!important;-moz-opacity:1!important;-khtml-opacity:1!important;top:auto!important;right:10px!important;bottom:0px!important;left:auto!important;position:fixed!important;border:0!important;min-height:0!important;min-width:0!important;max-height:none!important;max-width:none!important;padding:0!important;margin:0!important;-moz-transition-property:none!important;-webkit-transition-property:none!important;-o-transition-property:none!important;transition-property:none!important;transform:none!important;-webkit-transform:none!important;-ms-transform:none!important;width:auto!important;height:auto!important;display:none!important;z-index:2000000000!important;background-color:transparent!important;cursor:auto!important;float:none!important;border-radius:unset!important;pointer-events:auto!important}#dNJmS6d-1582002535089.open{animation : tawkMaxOpen .25s ease!important;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#hnh9pEq-1582003552417{outline:none!important;visibility:visible!important;resize:none!important;box-shadow:none!important;overflow:visible!important;background:none!important;opacity:1!important;filter:alpha(opacity=100)!important;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity1)!important;-moz-opacity:1!important;-khtml-opacity:1!important;top:auto!important;right:10px!important;bottom:0px!important;left:auto!important;position:fixed!important;border:0!important;min-height:0!important;min-width:0!important;max-height:none!important;max-width:none!important;padding:0!important;margin:0!important;-moz-transition-property:none!important;-webkit-transition-property:none!important;-o-transition-property:none!important;transition-property:none!important;transform:none!important;-webkit-transform:none!important;-ms-transform:none!important;width:auto!important;height:auto!important;display:none!important;z-index:2000000000!important;background-color:transparent!important;cursor:auto!important;float:none!important;border-radius:unset!important;pointer-events:auto!important}#snbMf43-1582003552418.open{animation : tawkMaxOpen .25s ease!important;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
 <body>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -103,7 +101,7 @@
 
                             </div>
                         </li>
-                        <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-menus"></i></span></a>
+                        <li class="nav-item open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="true" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-menus"></i></span></a>
                             <div role="menu" class="dropdown-menu message-dd chat-dd animated zoomIn">
                                 <div class="hd-mg-tt">
                                     <h2>Menu Principal</h2>
@@ -122,13 +120,7 @@
 
                             </div>
                         </li>
-
-
-                        <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><p>Nombre
-                        </p>
-
-                        </a></li><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-                    </a></ul>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -415,58 +407,58 @@
 </div>
 
 
-<script src="<%=context%>/js/vendor/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="js/vendor/jquery-1.12.4.min.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/wow.min.js" type="text/javascript"></script>
+<script src="js/wow.min.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/jquery-price-slider.js" type="text/javascript"></script>
+<script src="js/jquery-price-slider.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/jquery.scrollUp.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollUp.min.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/meanmenu/jquery.meanmenu.js" type="text/javascript"></script>
+<script src="js/meanmenu/jquery.meanmenu.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/counterup/jquery.counterup.min.js" type="text/javascript"></script>
-<script src="<%=context%>/js/counterup/waypoints.min.js" type="text/javascript"></script>
-<script src="<%=context%>/js/counterup/counterup-active.js" type="text/javascript"></script>
+<script src="js/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+<script src="js/counterup/waypoints.min.js" type="text/javascript"></script>
+<script src="js/counterup/counterup-active.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/scrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/jvectormap/jquery-jvectormap-2.0.2.min.js" type="text/javascript"></script>
-<script src="<%=context%>/js/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
-<script src="<%=context%>/js/jvectormap/jvectormap-active.js" type="text/javascript"></script><div class="jvectormap-tip"></div><div class="jvectormap-tip"></div>
+<script src="js/jvectormap/jquery-jvectormap-2.0.2.min.js" type="text/javascript"></script>
+<script src="js/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+<script src="js/jvectormap/jvectormap-active.js" type="text/javascript"></script><div class="jvectormap-tip"></div><div class="jvectormap-tip"></div>
 
-<script src="<%=context%>/js/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
-<script src="<%=context%>/js/sparkline/sparkline-active.js" type="text/javascript"></script>
+<script src="js/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+<script src="js/sparkline/sparkline-active.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/flot/jquery.flot.js" type="text/javascript"></script>
-<script src="<%=context%>/js/flot/jquery.flot.resize.js" type="text/javascript"></script>
-<script src="<%=context%>/js/flot/curvedLines.js" type="text/javascript"></script>
-<script src="<%=context%>/js/flot/flot-active.js" type="text/javascript"></script>
+<script src="js/flot/jquery.flot.js" type="text/javascript"></script>
+<script src="js/flot/jquery.flot.resize.js" type="text/javascript"></script>
+<script src="js/flot/curvedLines.js" type="text/javascript"></script>
+<script src="js/flot/flot-active.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/knob/jquery.knob.js" type="text/javascript"></script><div id="tawkchat-container" class="" style="border: 0px none !important; padding: 0px !important; z-index: 999999999 !important; overflow: visible !important; min-width: 0px !important; min-height: 0px !important; max-width: none !important; max-height: none !important; width: auto !important; height: auto !important; position: fixed !important; display: block !important; margin: 0px !important; bottom: 0px !important; top: auto !important; right: 0px !important; left: auto !important;"><iframe id="FPCg9Ua-1582003814418" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; left: auto !important; position: absolute !important; border: 0px !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; z-index: 1000000 !important; cursor: auto !important; float: none !important; border-radius: unset !important; pointer-events: auto !important; display: block !important; height: 90px !important; width: 70px !important; min-height: 90px !important; min-width: 70px !important; max-height: 90px !important; max-width: 70px !important; bottom: 14px !important; right: 20px !important;"></iframe><iframe id="GNZb2km-1582003814419" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: auto !important; bottom: auto !important; left: auto !important; position: static !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; display: none !important; z-index: 999999 !important; cursor: auto !important; float: none !important; border-radius: unset !important; pointer-events: auto !important; width: 100% !important; height: 100% !important;"></iframe><iframe id="w7ntavI-1582003814580" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: auto !important; bottom: auto !important; left: auto !important; position: fixed !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: 378px !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 100% !important; height: 0px !important; display: none !important; z-index: 999999 !important; cursor: auto !important; float: none !important; border-radius: unset !important; pointer-events: auto !important;"></iframe></div>
-<script src="<%=context%>/js/knob/jquery.appear.js" type="text/javascript"></script>
-<script src="<%=context%>/js/knob/knob-active.js" type="text/javascript"></script>
+<script src="js/knob/jquery.knob.js" type="text/javascript"></script><div id="tawkchat-container" class="" style="border: 0px none !important; padding: 0px !important; z-index: 999999999 !important; overflow: visible !important; min-width: 0px !important; min-height: 0px !important; max-width: none !important; max-height: none !important; width: auto !important; height: auto !important; position: fixed !important; display: block !important; margin: 0px !important; bottom: 0px !important; top: auto !important; right: 0px !important; left: auto !important;"><iframe id="FPCg9Ua-1582003814418" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; left: auto !important; position: absolute !important; border: 0px !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; z-index: 1000000 !important; cursor: auto !important; float: none !important; border-radius: unset !important; pointer-events: auto !important; display: block !important; height: 90px !important; width: 70px !important; min-height: 90px !important; min-width: 70px !important; max-height: 90px !important; max-width: 70px !important; bottom: 14px !important; right: 20px !important;"></iframe><iframe id="GNZb2km-1582003814419" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: auto !important; bottom: auto !important; left: auto !important; position: static !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: none !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; display: none !important; z-index: 999999 !important; cursor: auto !important; float: none !important; border-radius: unset !important; pointer-events: auto !important; width: 100% !important; height: 100% !important;"></iframe><iframe id="w7ntavI-1582003814580" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; top: auto !important; right: auto !important; bottom: auto !important; left: auto !important; position: fixed !important; border: 0px !important; min-height: auto !important; min-width: auto !important; max-height: none !important; max-width: 378px !important; padding: 0px !important; margin: 0px !important; transition-property: none !important; transform: none !important; width: 100% !important; height: 0px !important; display: none !important; z-index: 999999 !important; cursor: auto !important; float: none !important; border-radius: unset !important; pointer-events: auto !important;"></iframe></div>
+<script src="js/knob/jquery.appear.js" type="text/javascript"></script>
+<script src="js/knob/knob-active.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/wave/waves.min.js" type="text/javascript"></script>
-<script src="<%=context%>/js/wave/wave-active.js" type="text/javascript"></script>
+<script src="js/wave/waves.min.js" type="text/javascript"></script>
+<script src="js/wave/wave-active.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/todo/jquery.todo.js" type="text/javascript"></script>
+<script src="js/todo/jquery.todo.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/plugins.js" type="text/javascript"></script>
+<script src="js/plugins.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/chat/moment.min.js" type="text/javascript"></script>
-<script src="<%=context%>/js/chat/jquery.chat.js" type="text/javascript"></script>
+<script src="js/chat/moment.min.js" type="text/javascript"></script>
+<script src="js/chat/jquery.chat.js" type="text/javascript"></script>
 
-<script src="<%=context%>/js/main.js" type="text/javascript"></script><a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a><a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-up"></i></a>
+<script src="js/main.js" type="text/javascript"></script><a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a><a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-up"></i></a>
 
-<script src="<%=context%>/js/tawk-chat.js" type="text/javascript"></script>
+<script src="js/tawk-chat.js" type="text/javascript"></script>
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="text/javascript"></script>
-<script type="<%=context%>/text/javascript">
+<script type="text/javascript">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
