@@ -57,24 +57,67 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">                        
-                            <li><a data-toggle="tab" href="#Asesorias"><i class="notika-icon notika-form"></i> Asesorías</a>
+                        <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
+                            <li><a data-toggle="tab" href="#Gestiones"><i class="notika-icon notika-form"></i> Gestiones</a>
+                            </li>
+                            <li><a data-toggle="tab" href="#Asesorias"><i class="notika-icon notika-app"></i> Asesorías</a>
                             </li>                        
                             
                         </ul>                    
                         <div class="tab-content custom-menu-content">
+                            <div id="Gestiones" class="tab-pane notika-tab-menu-bg animated flipInX">
+                                <ul class="notika-main-menu-dropdown">
+                                    <li><a href="#">Horario Laboral</a>
+                                    </li>
+                                    <li><a href="#">Horario Asesorías</a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div id="Asesorias" class="tab-pane notika-tab-menu-bg animated flipInX">
                                 <ul class="notika-main-menu-dropdown">
                                     <li><a href="#">Asesorías pendientes</a>
-                                    </li>                                                                    
+                                    </li>
+                                    <li><a href="#">Asesorías aceptadas</a>
+                                    </li>
+                                    <li><a href="#">Historial general</a>
+                                    </li>
                                 </ul>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>    
         </div>  
         <!-- Main Menu area End-->
+
+        <div class="mobile-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown" style="display: block;">
+                                <ul class="mobile-menu-nav">
+                                    <li><a data-toggle="collapse" data-target="#demodepart" href="#">Gestiones</a>
+                                        <ul id="demodepart" class="collapse dropdown-header-top">
+                                            <li><a href="normal-table.html">Horario Laboral</a></li>
+                                            <li><a href="data-table.html">Horario Asesorías</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a data-toggle="collapse" data-target="#demo" href="#">Asesorías</a>
+                                        <ul id="demo" class="collapse dropdown-header-top">
+                                            <li><a href="form-elements.html">Asesorías pendientes</a></li>
+                                            <li><a href="form-components.html">Asesorías aceptadas</a></li>
+                                            <li><a href="form-examples.html">Historial general</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <br>
         <br>
         <br>
