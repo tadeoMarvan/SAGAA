@@ -12,23 +12,21 @@ public class SQLConnection {
     private static String user;
     private static String password;
     private static String service;
-    private static ResourceBundle propiedadesBD;
 
     public static Connection getConnection() throws SQLException {
         try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        } catch (ClassNotFoundException ex) {
-            ex.printStackTrace();
-        }
-        if (propiedadesBD == null) {
-            //búsqueda de archivos y asignación de datos
 
-            ipAddress = propiedadesBD.getString("host");
-            dbName = propiedadesBD.getString("nombreBD");
-            user = propiedadesBD.getString("usuario");
-            password = propiedadesBD.getString("contrasexa");
-            service = propiedadesBD.getString("servicio");
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        } catch (Exception ex) {
+            System.out.println("error en driver"+ex.getMessage());
         }
+
+
+            ipAddress = "localhost";
+            dbName = "SAGA";
+            user = "sa";
+            password = "root";
+            service = "1433";
         //retorno de conexión a la BD
         return DriverManager.getConnection("jdbc:sqlserver://" + ipAddress + ":" + service + ";databaseName=" + dbName + ";user=" + user + ";password=" + password);
 
