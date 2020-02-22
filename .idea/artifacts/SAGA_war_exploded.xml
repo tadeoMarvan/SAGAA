@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="SAGA" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-codec-1.9" />
+          <element id="library" level="project" name="com.microsoft.sqlserver:mssql-jdbc:8.2.0.jre8" />
+        </element>
       </element>
     </root>
   </artifact>

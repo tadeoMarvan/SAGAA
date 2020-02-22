@@ -11,6 +11,9 @@
         <action name="index">
             <result>/index.jsp</result>
         </action>
-    </package>
 
+        <action name="index2">
+            <result>/index2.jsp</result>
+        </action>
+    </package>
 </struts>

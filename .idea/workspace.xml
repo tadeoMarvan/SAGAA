@@ -7,8 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c80b86a4-04a3-450e-aae5-437bdccee8e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_microsoft_sqlserver_mssql_jdbc_8_2_0_jre8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/SQLServerConexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SAGA_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SAGA_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAGA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SAGA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAGA/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAGA/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Asesoria/BeanAsesoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Asesoria/BeanAsesoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Docente/BeanDocente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Docente/BeanDocente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Permisos/BeanPermisos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Permisos/BeanPermisos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Usuario/BeanUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Usuario/BeanUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/conexion/MySQLConexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/MySQLConexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/estudiante/BeanEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/estudiante/BeanEstudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/horario/BeanHorario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/horario/BeanHorario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/interceptor/Interceptores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/interceptor/Interceptores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/persona/BeanPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/persona/BeanPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/rol/BeanRol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/rol/BeanRol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/struts.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +41,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -37,11 +59,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -135,16 +162,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -164,6 +181,7 @@
       <updated>1581368923480</updated>
       <workItem from="1581368925780" duration="1333000" />
       <workItem from="1581390341309" duration="5463000" />
+      <workItem from="1582348587936" duration="1826000" />
     </task>
     <servers />
   </component>
@@ -171,10 +189,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2372" y="95" key="#Project_Structure" timestamp="1581480861091">
+    <state x="452" y="95" key="#Project_Structure" timestamp="1582350512789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="95" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582350512789" />
+    <state x="2372" y="95" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1581480861091" />
+    <state x="627" y="217" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582350890648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="217" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582350890648" />
+    <state x="2334" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582265812724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2372" y="95" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1581480861091" />
+    <state x="2334" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1582265812724" />
     <state x="2433" y="133" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1581481185042">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -183,6 +210,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2641" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1581485111635" />
+    <state x="-1418" y="125" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582348631632">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1418" y="125" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582348631632" />
     <state x="2547" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581483610200">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -239,6 +270,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1581483837740" />
+    <state x="-1340" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1582348588727">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1340" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582348588727" />
+    <state x="613" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582350468866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="393" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582350468866" />
     <state x="2555" y="188" key="struts2 file set editor" timestamp="1581480859343">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
