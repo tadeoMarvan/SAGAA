@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dashboard One | Notika - Notika Admin Template</title>
+    <title>SAGA | DOCENTE</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -38,11 +38,12 @@
     <!-- mCustomScrollbar CSS
                 ============================================ -->
     <link rel="stylesheet" href="<%=context%>/css/scrollbar/jquery.mCustomScrollbar.min.css">
-
-
     <!-- notika icon CSS
                 ============================================ -->
     <link rel="stylesheet" href="<%=context%>/css/notika-custom-icon.css">
+    <!-- Data Table JS
+		============================================ -->
+    <link rel="stylesheet" href="<%=context%>/css/jquery.dataTables.min.css">
     <!-- main CSS
                 ============================================ -->
     <link rel="stylesheet" href="<%=context%>/css/main.css">
@@ -56,15 +57,91 @@
 <body>
 
 <div class="encabezado"></div>
-<h1>HOLA MUNDO</h1>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+<div class="breadcomb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="breadcomb-list">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="breadcomb-wp">
+                                <div class="breadcomb-icon">
+                                    <i class="notika-icon notika-app"></i>
+                                </div>
+                                <div class="breadcomb-ctn">
+                                    <h2>Asesorías pendientes</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Data Table area Start-->
+<div class="data-table-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="data-table-list">
+                    <div class="table-responsive">
+                        <table id="data-table-basic" class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Alumno</th>
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Tema</th>
+                                <th>Aceptar</th>
+                                <th>Rechazar</th>
+                                <th>Reagendar</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Michael Bruce</td>
+                                <td>Javascript Developer</td>
+                                <td>Singapore</td>
+                                <td>29</td>
+                                <td><button class="btn notika-btn-teal waves-effect"><i class="notika-icon notika-checked"></i></button></td>
+                                <td><button class="btn notika-btn-red waves-effect"><i class="notika-icon notika-close"></i></button></td>
+                                <td><button class="btn notika-btn-indigo btn-reco-mg btn-button-mg waves-effect"><i class="notika-icon notika-next"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>Donna Snider</td>
+                                <td>Customer Support</td>
+                                <td>New York</td>
+                                <td>27</td>
+                                <td><button class="btn notika-btn-teal waves-effect"><i class="notika-icon notika-checked"></i></button></td>
+                                <td><button class="btn notika-btn-red waves-effect"><i class="notika-icon notika-close"></i></button></td>
+                                <td><button class="btn notika-btn-indigo btn-reco-mg btn-button-mg waves-effect"><i class="notika-icon notika-next"></i></button></td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <th>Alumno</th>
+                                <th>Fecha</th>
+                                <th>Hora</th>
+                                <th>Tema</th>
+                                <th>Aceptar</th>
+                                <th>Rechazar</th>
+                                <th>Reagendar</th>
+                            </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Data Table area End-->
+
+
+
 <br>
 <br>
 <br>
@@ -136,19 +213,51 @@
 <!-- plugins JS
             ============================================ -->
 <script src="<%=context%>/js/plugins.js"></script>
-
+<!-- Data Table JS
+       ============================================ -->
+<script src="<%=context%>/js/data-table/jquery.dataTables.min.js"></script>
+<script src="<%=context%>/js/data-table/data-table-act.js"></script>
 <!-- main JS
             ============================================ -->
 <script src="<%=context%>/js/main.js"></script>
 
-
-
+<br>
+<br>
+<br>
 <div class="piePagina"></div>
 </body>
 <script>
     $(document).ready(function () {
         $('.piePagina').load('<%=context%>/vista/footer.jsp');
         $('.encabezado').load('<%=context%>/vista/headerDocente.jsp');
+        // Call the dataTables jQuery plugin
+            $('#dataTable').DataTable({
+                "language": {
+                    "sProcessing":    "Procesando...",
+                    "sLengthMenu":    "Mostrar MENU registros",
+                    "sZeroRecords":   "No se encontraron resultados",
+                    "sEmptyTable":    "Ningún dato disponible en esta tabla",
+                    "sInfo":          "Mostrando registros del START al END de un total de TOTAL registros",
+                    "sInfoEmpty":     "Mostrando registros del 0 al 0 de un total de 0 registros",
+                    "sInfoFiltered":  "(filtrado de un total de MAX registros)",
+                    "sInfoPostFix":   "",
+                    "sSearch":        "Buscar:",
+                    "sUrl":           "",
+                    "sInfoThousands":  ",",
+                    "sLoadingRecords": "Cargando...",
+                    "oPaginate": {
+                        "sFirst":    "Primero",
+                        "sLast":    "Último",
+                        "sNext":    "Siguiente",
+                        "sPrevious": "Anterior"
+                    },
+                    "oAria": {
+                        "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+                        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                    }
+                },
+                "scrollX": true
+            });
     });
 </script>
 </html>
