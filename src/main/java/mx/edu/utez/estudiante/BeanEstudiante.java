@@ -15,6 +15,9 @@ public class BeanEstudiante extends BeanPersona {
     private String carrera;
     private String divisionAcademica;
 
+    public BeanEstudiante() {
+        super();
+    }
     public BeanEstudiante(int idPersona, String nombrePersona, String apellidoPersona, String sexo, String fechaNacimiento, List<BeanRol> roles) {
         super(idPersona, nombrePersona, apellidoPersona, sexo, fechaNacimiento, roles);
     }

@@ -15,7 +15,7 @@ public class PruebaMEMO {
           ResultSet rs=pstm.executeQuery();
           while (rs.next()){
               System.out.println(rs.getString("matricula"));
-            
+
           }
       }catch (Exception e){
           System.out.println("error en la con"+e);

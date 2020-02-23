@@ -21,6 +21,10 @@ private String nombrePersona;
         this.roles = roles;
     }
 
+    public BeanPersona() {
+
+    }
+
     public int getIdPersona() {
         return idPersona;
     }
