@@ -7,15 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c80b86a4-04a3-450e-aae5-437bdccee8e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/PruebaMEMO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/SQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties-base.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_microsoft_sqlserver_mssql_jdbc_8_2_0_jre8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/SQLServerConexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SAGA_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SAGA_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAGA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SAGA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SAGA_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAGA/struts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/MySQLConexion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/SQLServerConexion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAGA/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAGA/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Asesoria/BeanAsesoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Asesoria/BeanAsesoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Docente/BeanDocente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Docente/BeanDocente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Permisos/BeanPermisos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Permisos/BeanPermisos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/Usuario/BeanUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/Usuario/BeanUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/conexion/MySQLConexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/MySQLConexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/estudiante/BeanEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/estudiante/BeanEstudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/horario/BeanHorario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/horario/BeanHorario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/interceptor/Interceptores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/interceptor/Interceptores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/persona/BeanPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/persona/BeanPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/rol/BeanRol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/rol/BeanRol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/struts.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,49 +67,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tadeo\Documents\GitHub\SAGAA\src\main\resources" />
-      <recent name="C:\Users\Tadeo\Documents\GitHub\SAGAA\src\main\java\mx\edu\utez" />
-      <recent name="C:\Users\Tadeo\Documents\GitHub\SAGAA\src\main\java\mx\edu\utez\conexion" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Tadeo\Documents\GitHub\SAGAA\src\main\java\mx\edu\utez\conexion" />
       <recent name="C:\Users\tadeo\IdeaProjects\SAGA\web\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PruebaMEMO">
-    <configuration name="MySQLConexion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mx.edu.utez.conexion.MySQLConexion" />
-      <module name="SAGA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mx.edu.utez.conexion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PruebaMEMO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.mx.edu.utez.conexion.PruebaMEMO" />
-      <module name="SAGA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.mx.edu.utez.conexion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 8.0.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.15" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SAGA_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -171,12 +151,6 @@
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.PruebaMEMO" />
-        <item itemvalue="Application.MySQLConexion" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -207,7 +181,7 @@
       <updated>1581368923480</updated>
       <workItem from="1581368925780" duration="1333000" />
       <workItem from="1581390341309" duration="5463000" />
-      <workItem from="1582348587936" duration="4544000" />
+      <workItem from="1582348587936" duration="1826000" />
     </task>
     <servers />
   </component>
@@ -244,25 +218,21 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2547" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1581483610200" />
-    <state width="1865" height="267" key="GridCell.Tab.0.bottom" timestamp="1582354033945">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1279" height="364" key="GridCell.Tab.0.bottom" timestamp="1582004986323">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354033945" />
     <state width="1279" height="364" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1582004986323" />
-    <state width="1865" height="267" key="GridCell.Tab.0.center" timestamp="1582354033945">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1279" height="364" key="GridCell.Tab.0.center" timestamp="1582004986323">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354033945" />
     <state width="1279" height="364" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1582004986323" />
-    <state width="1865" height="267" key="GridCell.Tab.0.left" timestamp="1582354033945">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1279" height="364" key="GridCell.Tab.0.left" timestamp="1582004986323">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354033945" />
     <state width="1279" height="364" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1582004986323" />
-    <state width="1865" height="267" key="GridCell.Tab.0.right" timestamp="1582354033945">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1279" height="364" key="GridCell.Tab.0.right" timestamp="1582004986323">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582354033945" />
     <state width="1279" height="364" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1582004986323" />
     <state width="1279" height="364" key="GridCell.Tab.1.bottom" timestamp="1582004986265">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -312,19 +282,5 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2555" y="188" key="struts2 file set editor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1581480859343" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/mx/edu/utez/conexion/PruebaMEMO.java</url>
-          <line>5</line>
-          <properties class="main.java.mx.edu.utez.conexion.PruebaMEMO" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
