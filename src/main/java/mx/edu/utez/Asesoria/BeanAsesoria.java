@@ -1,4 +1,4 @@
-package main.java.mx.edu.utez.Asesoria;
+package mx.edu.utez.Asesoria;
 
 import mx.edu.utez.estudiante.BeanEstudiante;
 import mx.edu.utez.persona.BeanPersona;
