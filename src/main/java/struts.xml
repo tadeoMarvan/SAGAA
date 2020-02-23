@@ -6,22 +6,14 @@
 <struts>
 
     <constant name="struts.devMode" value="true" />
-    <package name="basicstruts2" extends="struts-default,json-default">
 
-        <action name="consultarAsesoriasPendientes" class="main.java.mx.edu.utez.Asesoria.AsesoriaController" method="consultarAsesoriasPendientes">
-            <result type="json"/>
-        </action>
-        <action name="memo2">
-            <result>/index.jsp</result>
-        </action>
+    <package name="basicstruts2" extends="struts-default">
         <action name="index">
             <result>/index.jsp</result>
         </action>
 
         <action name="index2">
-            <result>/index.jsp</result>
+            <result>/index2.jsp</result>
         </action>
-
     </package>
-
 </struts>

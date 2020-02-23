@@ -54,7 +54,7 @@
                 ============================================ -->
     <link rel="stylesheet" href="<%=context%>/css/responsive.css">
 </head>
-<body onload="consultarAsesoriasPendientes()">
+<body>
 
 <div class="encabezado"></div>
 
@@ -101,7 +101,24 @@
                             </tr>
                             </thead>
                             <tbody>
-
+                            <tr>
+                                <td>Michael Bruce</td>
+                                <td>Javascript Developer</td>
+                                <td>Singapore</td>
+                                <td>29</td>
+                                <td><button class="btn notika-btn-teal waves-effect"><i class="notika-icon notika-checked"></i></button></td>
+                                <td><button class="btn notika-btn-red waves-effect"><i class="notika-icon notika-close"></i></button></td>
+                                <td><button class="btn notika-btn-indigo btn-reco-mg btn-button-mg waves-effect"><i class="notika-icon notika-next"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>Donna Snider</td>
+                                <td>Customer Support</td>
+                                <td>New York</td>
+                                <td>27</td>
+                                <td><button class="btn notika-btn-teal waves-effect"><i class="notika-icon notika-checked"></i></button></td>
+                                <td><button class="btn notika-btn-red waves-effect"><i class="notika-icon notika-close"></i></button></td>
+                                <td><button class="btn notika-btn-indigo btn-reco-mg btn-button-mg waves-effect"><i class="notika-icon notika-next"></i></button></td>
+                            </tr>
                             </tbody>
                             <tfoot>
                             <tr>
@@ -204,10 +221,6 @@
             ============================================ -->
 <script src="<%=context%>/js/main.js"></script>
 
-<!-- nuestros recursos JS
-            ============================================ -->
-<script src="<%=context%>/js/a_nuestrosJS/asesorias.js"></script>
-
 <br>
 <br>
 <br>
@@ -217,7 +230,34 @@
     $(document).ready(function () {
         $('.piePagina').load('<%=context%>/vista/footer.jsp');
         $('.encabezado').load('<%=context%>/vista/headerDocente.jsp');
-
+        // Call the dataTables jQuery plugin
+            $('#dataTable').DataTable({
+                "language": {
+                    "sProcessing":    "Procesando...",
+                    "sLengthMenu":    "Mostrar MENU registros",
+                    "sZeroRecords":   "No se encontraron resultados",
+                    "sEmptyTable":    "Ningún dato disponible en esta tabla",
+                    "sInfo":          "Mostrando registros del START al END de un total de TOTAL registros",
+                    "sInfoEmpty":     "Mostrando registros del 0 al 0 de un total de 0 registros",
+                    "sInfoFiltered":  "(filtrado de un total de MAX registros)",
+                    "sInfoPostFix":   "",
+                    "sSearch":        "Buscar:",
+                    "sUrl":           "",
+                    "sInfoThousands":  ",",
+                    "sLoadingRecords": "Cargando...",
+                    "oPaginate": {
+                        "sFirst":    "Primero",
+                        "sLast":    "Último",
+                        "sNext":    "Siguiente",
+                        "sPrevious": "Anterior"
+                    },
+                    "oAria": {
+                        "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+                        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                    }
+                },
+                "scrollX": true
+            });
     });
 </script>
 </html>
